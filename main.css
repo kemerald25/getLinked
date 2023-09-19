@@ -1,0 +1,140 @@
+* {
+    transition: all 0.3s;
+}
+
+body {
+    background: #150E28;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.all-sections {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* .first_section{
+    background-image: url(/img/Purple-Lens-Flare-PNG.png), lightgray -1.385px 0px / 122.403% 102.747% no-repeat;
+    background-blend-mode: luminosity;
+    height: 600px;
+}    */
+
+.lens_flare {
+    /* background-image: url(/img/Purple-Lens-Flare-PNG.png); */
+    background-blend-mode: luminosity;
+    width: 400px;
+    height: 300px;
+    flex-shrink: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 200px;
+    filter: blur(25px);
+}
+
+.lens_flare img {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.nav_menu {
+    margin-left: 350px;
+    margin-right: 70px;
+}
+
+.nav_menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu ul li {
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.nav_menu ul li a {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.btn button {
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    padding: 10px 30px;
+    border: none;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+.first_ban {
+    position: relative;
+    padding-top: 130px;
+}
+
+.first_ban h3 {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.first_ban_top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.down_stroke {
+    width: 200px;
+    height: 20px;
+}
+
+.down_stroke img {
+    width: 100%;
+}
+
+.ban1_text h2 {
+    color: #FFF;
+    font-family: "Clash Display";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.ban1_text p {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166%;
+    margin: 0;
+}
